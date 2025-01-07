@@ -57,8 +57,7 @@ public class Main {
             } else {
                 System.out.print(box[m]);
             }
-            if (box[m] <= box.length)
-            {
+            if (m < box.length - 1) {
                 System.out.print(", ");
             }
         }
